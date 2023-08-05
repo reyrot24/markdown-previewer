@@ -2,8 +2,8 @@
   "name": "markdown-previewer",
   "private": true,
   "version": "0.0.0",
-  "type": "module",
   "homepage": "https://reyrot24.github.io/markdown-previewer",
+  "type": "module",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
@@ -27,5 +27,10 @@
     "eslint-plugin-react-refresh": "^0.4.3",
     "gh-pages": "^5.0.0",
     "vite": "^4.4.5"
-  }
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "vite.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
